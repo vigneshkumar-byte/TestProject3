@@ -20,6 +20,7 @@ namespace TestProject3
             var page = await browser.NewPageAsync();
             LoginPage lp=new LoginPage(page);
             await lp.Login("test", "test");
+            Console.WriteLine("vigneshkumar");
         }
     }
 }
